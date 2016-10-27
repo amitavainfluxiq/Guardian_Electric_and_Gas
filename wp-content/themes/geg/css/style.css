@@ -1,0 +1,404 @@
+@font-face {
+
+ font-family:'BebasNeue-Regular';
+
+ src: url('../fonts/BebasNeue_gdi.eot');
+
+ src: url('../fonts/BebasNeue_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/BebasNeue_gdi.woff') format('woff'), url('../fonts/BebasNeue_gdi.ttf') format('truetype'), url('../fonts/BebasNeue_gdi.svg#BebasNeue-Regular') format('svg');
+
+ font-weight: 400;
+
+ font-style: normal;
+
+ font-stretch: normal;
+
+ unicode-range: U+0020-2248;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'opificio_neueregular';
+
+    src: url('../fonts/opificio_neue-regular_0-webfont.woff2') format('woff2'),
+
+    url('../fonts/opificio_neue-regular_0-webfont.woff') format('woff');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+
+
+}
+
+
+
+
+
+@font-face {
+
+    font-family: 'Rage';
+
+    src: url('../fonts/RageItalic.eot');
+
+    src: url('../fonts/RageItalic.eot?#iefix') format('embedded-opentype'),
+
+    url('../fonts/RageItalic.woff') format('woff'),
+
+    url('../fonts/RageItalic.ttf') format('truetype');
+
+    font-weight: normal;
+
+    font-style: italic;
+
+}
+
+
+
+
+
+ @font-face {
+
+ font-family:'CenturyGothic-Regular';
+
+ src: url('../fonts/CenturyGothic_gdi.eot');
+
+ src: url('../fonts/CenturyGothic_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/CenturyGothic_gdi.woff') format('woff'), url('../fonts/CenturyGothic_gdi.ttf') format('truetype'), url('../fonts/CenturyGothic_gdi.svg#CenturyGothic-Regular') format('svg');
+
+ font-weight: 400;
+
+ font-style: normal;
+
+ font-stretch: normal;
+
+ unicode-range: U+0020-F003;
+
+}
+
+ @font-face {
+
+ font-family:'CenturyGothic-Bold';
+
+ src: url('../fonts/CenturyGothic-Bold_gdi.eot');
+
+ src: url('../fonts/CenturyGothic-Bold_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/CenturyGothic-Bold_gdi.woff') format('woff'), url('../fonts/CenturyGothic-Bold_gdi.ttf') format('truetype'), url('../fonts/CenturyGothic-Bold_gdi.svg#CenturyGothic-Bold') format('svg');
+
+ font-weight: 700;
+
+ font-style: normal;
+
+ font-stretch: normal;
+
+ unicode-range: U+0020-F003;
+
+}
+
+ @font-face {
+
+ font-family:'OpenSans-Bold';
+
+ src: url('../fonts/OpenSans-Bold_gdi.eot');
+
+ src: url('../fonts/OpenSans-Bold_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Bold_gdi.woff') format('woff'), url('../fonts/OpenSans-Bold_gdi.ttf') format('truetype'), url('../fonts/OpenSans-Bold_gdi.svg#OpenSans-Bold') format('svg');
+
+ font-weight: 700;
+
+ font-style: normal;
+
+ font-stretch: normal;
+
+ unicode-range: U+0020-25CA;
+
+}
+
+ @font-face {
+
+ font-family:'OpenSans-Regular';
+
+ src: url('../fonts/OpenSans_gdi.eot');
+
+ src: url('../fonts/OpenSans_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans_gdi.woff') format('woff'), url('../fonts/OpenSans_gdi.ttf') format('truetype'), url('../fonts/OpenSans_gdi.svg#OpenSans-Regular') format('svg');
+
+ font-weight: 400;
+
+ font-style: normal;
+
+ font-stretch: normal;
+
+ unicode-range: U+0020-25CA;
+
+}
+
+ @font-face {
+
+ font-family:'OpenSans-Semibold';
+
+ src: url('../fonts/OpenSans-Semibold_gdi.eot');
+
+ src: url('../fonts/OpenSans-Semibold_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Semibold_gdi.woff') format('woff'), url('../fonts/OpenSans-Semibold_gdi.ttf') format('truetype'), url('../fonts/OpenSans-Semibold_gdi.svg#OpenSans-Semibold') format('svg');
+
+ font-weight: 600;
+
+ font-style: normal;
+
+ font-stretch: normal;
+
+ unicode-range: U+0020-25CA;
+
+}
+
+
+
+@font-face {
+
+	font-family:'MyriadPro-Bold';
+
+	src: url('../fonts/MyriadPro-Bold_gdi.eot');
+
+	src: url('../fonts/MyriadPro-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+
+		url('../fonts/MyriadPro-Bold_gdi.woff') format('woff'),
+
+		url('../fonts/MyriadPro-Bold_gdi.ttf') format('truetype'),
+
+		url('../fonts/MyriadPro-Bold_gdi.svg#MyriadPro-Bold') format('svg');
+
+	font-weight: 700;
+
+	font-style: normal;
+
+	font-stretch: normal;
+
+	unicode-range: U+0020-25CA;
+
+}
+
+
+
+@font-face {
+
+	font-family:'MyriadPro-Regular';
+
+	src: url('../fonts/MyriadPro-Regular_gdi.eot');
+
+	src: url('../fonts/MyriadPro-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+
+		url('../fonts/MyriadPro-Regular_gdi.woff') format('woff'),
+
+		url('../fonts/MyriadPro-Regular_gdi.ttf') format('truetype'),
+
+		url('../fonts/MyriadPro-Regular_gdi.svg#MyriadPro-Regular') format('svg');
+
+	font-weight: 400;
+
+	font-style: normal;
+
+	font-stretch: normal;
+
+	unicode-range: U+0020-25CA;
+
+}
+
+
+
+
+
+@font-face {
+
+    font-family:'Raleway-Regular';
+
+    src: url('../fonts/Raleway-Regular_gdi.eot');
+
+    src: url('../fonts/Raleway-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+
+    url('../fonts/Raleway-Regular_gdi.woff') format('woff'),
+
+    url('../fonts/Raleway-Regular_gdi.ttf') format('truetype'),
+
+    url('../fonts/Raleway-Regular_gdi.svg#Raleway-Regular') format('svg');
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    font-stretch: normal;
+
+    unicode-range: U+0020-25CA;
+
+}
+
+
+
+@font-face {
+
+    font-family:'Raleway-Bold';
+
+    src: url('../fonts/Raleway-Bold_gdi.eot');
+
+    src: url('../fonts/Raleway-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+
+    url('../fonts/Raleway-Bold_gdi.woff') format('woff'),
+
+    url('../fonts/Raleway-Bold_gdi.ttf') format('truetype'),
+
+    url('../fonts/Raleway-Bold_gdi.svg#Raleway-Bold') format('svg');
+
+    font-weight: 700;
+
+    font-style: normal;
+
+    font-stretch: normal;
+
+    unicode-range: U+0020-25CA;
+
+}
+
+
+
+
+
+@font-face {
+
+    font-family:'Lato-Regular';
+
+    src: url('../fonts/Lato-Regular_gdi.eot');
+
+    src: url('../fonts/Lato-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+
+    url('../fonts/Lato-Regular_gdi.woff') format('woff'),
+
+    url('../fonts/Lato-Regular_gdi.ttf') format('truetype'),
+
+    url('../fonts/Lato-Regular_gdi.svg#Lato-Regular') format('svg');
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    font-stretch: normal;
+
+    unicode-range: U+000D-25CA;
+
+}
+
+
+
+
+
+@font-face {
+
+    font-family:'MyriadPro-Semibold';
+
+    src: url('../fonts/MyriadPro-Semibold_gdi.eot');
+
+    src: url('../fonts/MyriadPro-Semibold_gdi.eot?#iefix') format('embedded-opentype'),
+
+    url('../fonts/MyriadPro-Semibold_gdi.woff') format('woff'),
+
+    url('../fonts/MyriadPro-Semibold_gdi.ttf') format('truetype'),
+
+    url('../fonts/MyriadPro-Semibold_gdi.svg#MyriadPro-Semibold') format('svg');
+
+    font-weight: 600;
+
+    font-style: normal;
+
+    font-stretch: normal;
+
+    unicode-range: U+0020-25CA;
+
+}
+
+
+
+
+
+body {
+
+	padding:0;
+
+	margin:0;
+
+	background:#ffffff;
+
+	overflow-x:hidden;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+* {
+
+	padding:0;
+
+	margin:0;
+
+	text-decoration:none;
+
+	list-style:none;
+
+}
+
+
+
+p{ margin:0; padding:0;}
+
+a {
+
+	text-decoration:none;
+
+}
+
+a:hover {
+
+	text-decoration:none;
+
+	outline:none;
+
+}
+
+a:visit {
+
+text-decoration:none;
+
+outline:none;
+
+}
+
+a:focus {
+
+	text-decoration:none;
+
+	outline:none;
+
+}
+
+.clear {
+
+	clear:both;
+
+	height:0px;
+
+}
+
+
+
+p{ margin:0; padding:0;}
+
+
+
+.container-fluid{ margin-left:0px; margin-right:0px; padding-left:0px; padding-right:0px;  }
+
+
+
+.container{padding-left:0px; padding-right:0px;}
+
+
+
+.row{ margin-left:0px; margin-right:0px; padding-left:0px; padding-right:0px;}
+
+
+
