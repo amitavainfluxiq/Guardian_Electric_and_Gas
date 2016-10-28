@@ -731,5 +731,56 @@ p{ margin:0; padding:0;}
  text-transform: uppercase;}
 
 
+.hometestimonialblock ul{ margin: 0; padding: 0px;}
+
+.hometestimonialblock ul li{background: url("../images/home_testimonialborder.png") no-repeat  left bottom; padding-bottom: 30px; margin-bottom: 30px;}
+
+.hometestimonialblock ul li:last-child{ padding-bottom: 0px; margin-bottom: 0px; background: none;}
+
+.hometestimonialblock ul li .hometestimonial_img{ display: block; float: left; width: 100px; height: 100px; overflow: hidden;}
+
+.hometestimonialblock ul li .hometestimonial_img img{ width: 100%; border-radius: 100px;}
 
 
+.hometestimonialblock ul li  .hometestimonial_text{ font-weight: normal; display: block; float: right; padding-left: 25px; width: 450px; font-size: 14px; color: #1e1e20; font-style: italic; line-height: 22px;  font-family: "OpenSans-Regular";}
+
+.hometestimonialblock ul li  .hometestimonial_text strong{ color: #000; font-style: normal; display: block; padding-top: 20px;}
+
+
+.home_tesand_faq_block .homefaqlink{border: 2px solid #0892d3;
+    color: #0892d3 !important;
+    display: block;
+    font-family: "OpenSans-Regular";
+    font-size: 16px;
+    height: 46px;
+    line-height: 40px;
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px; float: right;}
+
+
+.homefaqwrapper{ background: #e9ebed; padding: 5px;}
+.homefaqwrapper .panel-default{ margin-bottom: 10px; border: solid 1px #c7c7c7;}
+
+.homefaqwrapper .panel-default:last-of-type{ margin-bottom: 0px;}
+
+.homefaqwrapper .panel-default h4{ margin: 0px; padding: 0px; font-size: 14px; color: #434242; font-family:'OpenSans-Semibold';}
+
+.homefaqwrapper .panel-default h4 a{color: #434242; border-bottom: solid 1px #c7c7c7; display: block;  background: url("../images/homefaq_icon2.png") no-repeat  14px center; padding-left: 40px;     line-height: 24px;}
+
+
+.homefaqwrapper .panel-default h4 a span{ border-left: solid 1px #c7c7c7; display: block; padding: 10px; }
+
+
+.homefaqwrapper .panel-default br{ display: none;}
+
+.homefaqwrapper  .panel-collapse{ font-family: "OpenSans-Regular"; font-size: 14px; color: #434242; padding: 10px;}
+
+
+.homebannerblock{border-top: 6px solid #ffb900;}
+
+.homebannerblock p{ margin: 0px; padding: 0px;}
+
+
+.homebannerblock p br{ display: none;}
