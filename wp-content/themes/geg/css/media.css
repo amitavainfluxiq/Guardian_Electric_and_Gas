@@ -2,6 +2,10 @@
     .topheaderblock{ width: 1446px; margin: 0 auto;}
     .topheaderblock .topmenu{ width: 835px;}
     .topmenu  ul li a{ padding:0 6px; margin: 0 6px;}
+
+    .homebannertextblock h2{ margin-top: 100px;  font-size: 56px;}
+
+    .homebannertextblock h3{ margin-top: 30px; font-size: 20px;}
 }
 
 
@@ -61,6 +65,12 @@
 }
 
 @media(max-width:1199px) {
+    .homebannertextblock h2{ width: 100%; border: none; margin: 0px; text-align: center; padding-bottom: 25px; }
+    .homebannertextblock h3{ width: 100%; border: none; margin: 0px; text-align: center; padding-bottom: 25px; }
+
+    .homebannertextblock .homebannerlink{ margin: 0 auto; margin-bottom: 14px;}
+    .homebannerblock{ overflow: inherit;}
+    .homebannertextblock{background-image: none; background-color: #ff5400; position: inherit;  height: auto; left: 0; top: 0; overflow: hidden; width: 100%; padding:25px; }
 
     .topheaderblock{ width: 100%; margin: 26px 0;}
 
@@ -262,7 +272,7 @@
 }
 
 @media(max-width:580px) {
-    .homebannerblock{ overflow: hidden;}
+
 .homebannerslider .carousel-inner img{ width:150%!important; max-width: inherit; }
 }
 

@@ -695,7 +695,7 @@ p{ margin:0; padding:0;}
 .homecontactwrapper .form-group,.homecontactwrapper .form-group2 { margin-bottom:20px;}
 .homecontactwrapper .form-group .form-control{ border-radius: 0px; height: 54px; padding:0 10px; font-size: 14px; color: #47484a;  font-family: "OpenSans-Regular"; border: solid 1px #c6c6c6; box-shadow: none;}
 
-.homecontactwrapper .form-group2 .form-control{ border-radius: 0px; height: 140px; padding:10px; font-size: 14px; color: #47484a;  font-family: "OpenSans-Regular"; border: solid 1px #c6c6c6; box-shadow: none;}
+.homecontactwrapper .form-group2 .form-control{ border-radius: 0px; height: 140px; padding:10px; font-size: 14px; color: #47484a;  font-family: "OpenSans-Regular"; border: solid 1px #c6c6c6; box-shadow: none; resize: none;}
 
 
 .homecontactwrapper  .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -711,7 +711,7 @@ p{ margin:0; padding:0;}
     opacity: 10; text-transform: uppercase;
 }
 
-.homecontactwrapper .homesubbtn { width: 100%; height: 50px; background: #fff; border-radius: 0px; box-shadow: none; cursor: pointer; border: solid 2px #7d7d7d; font-size: 18px; color: #000000; font-family: "robotoblack"; text-transform: uppercase;}
+.homecontactwrapper .homesubbtn { width: 100%; height: 50px; background: #fff;  border-radius: 0px; box-shadow: none; cursor: pointer; border: solid 2px #7d7d7d; font-size: 18px; color: #000000; font-family: "robotoblack"; text-transform: uppercase;}
 
 
 .screen-reader-response,.wpcf7-response-output{ display: none;}
@@ -778,9 +778,30 @@ p{ margin:0; padding:0;}
 .homefaqwrapper  .panel-collapse{ font-family: "OpenSans-Regular"; font-size: 14px; color: #434242; padding: 10px;}
 
 
-.homebannerblock{border-top: 6px solid #ffb900;}
+.homebannerblock{border-top: 6px solid #ffb900; position: relative; overflow: hidden;}
 
-.homebannerblock p{ margin: 0px; padding: 0px;}
+.homebannerslider p{ margin: 0px; padding: 0px;}
 
 
-.homebannerblock p br{ display: none;}
+.homebannerslider p br{ display: none;}
+
+
+.homebannertextblock{ background: url("../images/homebannertextbg.png") no-repeat  left center; position: absolute; top: 0px; left: 8%; width: 1071px; height: 902px; }
+
+.homebannertextblock h2{ width: 784px; margin: 150px 0 0 98px; border-left: solid 2px #55657d; font-size: 60px; color: #ffffff; font-family: 'Roboto-Bold'; padding:0 0 0 18px;}
+
+
+.homebannertextblock h3{ width: 700px; margin: 40px 0 0 174px; padding: 0px; font-size: 24px; color: #ffffff; line-height: 36px;  font-family: "OpenSans-Regular";}
+
+
+.homebannertextblock .homebannerlink{  border: 2px solid #fff;
+    color: #fff !important;
+    display: block;
+
+    font-family: "OpenSans-Regular";
+    font-size: 22px;
+    height: 60px;
+    line-height: 54px;
+    text-align: center;
+    text-shadow: 0 0 4px #000;
+    width: 206px; text-transform: uppercase; margin: 60px 0 0 194px;}
